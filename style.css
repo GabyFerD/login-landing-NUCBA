@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif; 
+    display: flex;
+}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid rgb(216, 137, 186);
+    border-radius: 10px;
+    background-color: rgb(241, 225, 239);  
+    display: grid;
+    place-items: center;
+}
+
+img{
+    border-radius: 10px;
+   width: 80px;
+   height: 80px;
+}
+
+h2{
+    color: blueviolet;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+input:hover {
+    background: rgb(231, 54, 193);
+  }
+
+input:focus {
+    background: rgb(243, 131, 211);
+  }
+
+
+
+.uno{
+    border: 2px solid rgb(216, 137, 186);
+    background-color: rgb(241, 225, 239);   
+}
+
+
+.dos{
+    border: 2px solid blueviolet;
+    background-color: violet;
+    color: blueviolet;
+}
+
+p {
+    text-align: center;
+    
+}
+
+a:focus{
+    background-color: blueviolet;
+}
+
+a:hover{
+    background-color: violet;
+}
+
+a:active{
+    color: blueviolet;
+}
